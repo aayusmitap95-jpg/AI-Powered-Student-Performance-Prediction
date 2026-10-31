@@ -1,4 +1,4 @@
-# AI-Powered Student Performance Prediction
+# AI-Powered Student Performance Prediction & Learning Recommendation System
 
 Beginner-friendly, offline-capable 10-day AI/ML project built with Python, Pandas, NumPy, Scikit-learn, Matplotlib and Streamlit.
 
