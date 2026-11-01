@@ -6,7 +6,7 @@ import streamlit as st
 ROOT = Path(__file__).resolve().parent
 MODEL_PATH = ROOT/"models"/"student_score_pipeline.joblib"
 st.set_page_config(page_title="Student Performance AI", page_icon="🎓", layout="wide")
-st.title("🎓 AI-Powered Student Performance Prediction")
+st.title("🎓 AI-Powered Student Performance Prediction & Learning Recommendation System")
 st.caption("A learning-support prototype using synthetic demonstration data.")
 if not MODEL_PATH.exists():
     st.error("Trained model not found. First run: python train_model.py")
